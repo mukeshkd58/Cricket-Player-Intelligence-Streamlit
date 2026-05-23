@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated outputs
+outputs/
+*.log
+
+# Large/raw data - reproduce locally or use external storage/Git LFS
+data/raw/*.zip
+data/raw/*.json
+data/raw/register/*.csv
+data/processed/*.csv
+
+# Keep lightweight sample/demo data and placeholders
+!data/sample/*.csv
+!data/sample/README.md
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/images/.gitkeep
+
+# Local image cache; keep documented map only
+assets/player_images/*.jpg
+assets/player_images/*.jpeg
+assets/player_images/*.png
+assets/player_images/*.webp
+!assets/player_images/player_image_map.csv
+
+# Screenshots should be added manually after real app capture
+!assets/screenshots/README.md
+!assets/screenshots/.gitkeep
+
+# Model artifacts are intentionally allowed if they stay below GitHub limits
+!models/.gitkeep
+!models/*.pkl
+!models/*.json

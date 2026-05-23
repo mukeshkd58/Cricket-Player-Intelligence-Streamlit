@@ -1,0 +1,12 @@
+{
+  "target": "boundary_probability",
+  "status": "trained",
+  "model_type": "random_forest",
+  "rows": 3794030,
+  "positive_rate": 0.08700115708099303,
+  "accuracy": 0.5287335252615651,
+  "precision": 0.11019394231073064,
+  "recall": 0.6242856552692821,
+  "f1": 0.18732309980786316,
+  "roc_auc": 0.6023145214644352
+}

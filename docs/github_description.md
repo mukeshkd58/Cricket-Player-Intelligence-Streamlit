@@ -1,0 +1,1 @@
+Professional cricket analytics Streamlit app using real Cricsheet ball-by-ball data to analyze batter strengths/weaknesses, bowler threat patterns, batter-vs-bowler matchups, ML risk scores, tactical scouting reports, and PDF/CSV exports.

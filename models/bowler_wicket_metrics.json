@@ -1,0 +1,12 @@
+{
+  "target": "bowler_wicket",
+  "status": "trained",
+  "model_type": "random_forest",
+  "rows": 3794030,
+  "positive_rate": 0.02660627354027248,
+  "accuracy": 0.5049461654488449,
+  "precision": 0.036762179619322474,
+  "recall": 0.6986221181556196,
+  "f1": 0.06984884466904523,
+  "roc_auc": 0.6458552137388783
+}

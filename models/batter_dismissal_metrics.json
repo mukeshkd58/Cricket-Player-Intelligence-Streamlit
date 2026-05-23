@@ -1,0 +1,12 @@
+{
+  "target": "batter_dismissal",
+  "status": "trained",
+  "model_type": "random_forest",
+  "rows": 3794030,
+  "positive_rate": 0.027594932037964908,
+  "accuracy": 0.5436504941373234,
+  "precision": 0.03972353264979602,
+  "recall": 0.6704727998958017,
+  "f1": 0.07500333904005634,
+  "roc_auc": 0.6455166055468681
+}
